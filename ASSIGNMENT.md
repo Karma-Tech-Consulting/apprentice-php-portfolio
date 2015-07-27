@@ -6,16 +6,16 @@
  
  # Your Assignment:
  
-1. Merge the "master" branch to your own named branch.
+* Merge the "master" branch to your own named branch.
 
 ![screenshot](https://raw.githubusercontent.com/Karma-Tech-Consulting/apprentice-php-portfolio/justin/gitmergemaster.JPG "Do these steps")
 
-2. Figure out php include other php files
+* **Figure out php include other php files**
  * goooogle
-3. Refactor portfolio.php to use the $links array from links.php - without copying and pasting the data from links.php into portfolio.php
+* Refactor portfolio.php to use the $links array from links.php - without copying and pasting the data from links.php into portfolio.php
  * see step 2
-4. Once you have access to $links in portfolio.php, modify the loop so that:
+* Once you have access to $links in portfolio.php, modify the loop so that:
  * Not only does the image HTML with src generate at each iteration of the for loop, in an `<img>` tag
  * The title is interpolated into `<h1>` tags
- * The `<img>` tag is surrounded by an `<a>` tag - the href set to link. If you recall from code academy HTML those are the instructions for creating a clickable image-link.
-5. 
+ * Surround the `<img>` tag by an `<a>` tag - set the href set to the link property. If you recall from code academy HTML those are the instructions for creating a clickable image-link.
+* Commit changes often along the way, and when you are done, push your branch with new commits (completing the assignment) to the remote repository to share.

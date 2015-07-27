@@ -8,7 +8,7 @@
  
 1. Merge the "master" branch to your own named branch.
 
-![screenshot](https://github.com/Karma-Tech-Consulting/apprentice-php-portfolio/raw/master/gitmergemaster.jpg "Do these steps")
+![screenshot](https://raw.githubusercontent.com/Karma-Tech-Consulting/apprentice-php-portfolio/justin/gitmergemaster.JPG "Do these steps")
 
 2. Figure out php include other php files
  * goooogle

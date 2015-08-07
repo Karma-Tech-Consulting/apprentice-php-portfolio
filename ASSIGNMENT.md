@@ -13,7 +13,7 @@
 1. On lines 14 and 15 of portfolio.php, look at how the first Title is echo'd. 
 2. In the loop below, modify it so that:
  * The title at each inex $i is echo'd before the image.
- * Surround the `<img>` tag by a `<a></a>` tags - set the href set to the link property [at each index $i]. If you recall from code academy HTML those are the instructions for creating a clickable image-link, it shows the image and when the image is clicked it takes you to the link and not the image..
+ * Surround the `<img>` tag by a `<a></a>` tags - set the href set to the link property [at each index $i]. If you recall from code academy HTML those are the instructions for creating a clickable image-link, it shows the image and when the image is clicked it takes you to the link and not the image.. For the href, remember to echo a quotation mark in order to have valid html (see the img src attribute - that backslash inside an echo is called escaping a character).
 
 * **Figure out php include other php files**
  * goooogle

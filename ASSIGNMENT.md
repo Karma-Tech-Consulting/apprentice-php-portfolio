@@ -10,12 +10,13 @@
 
 ![screenshot](https://raw.githubusercontent.com/Karma-Tech-Consulting/apprentice-php-portfolio/justin/gitmergemaster.JPG "Do these steps")
 
+1. On lines 14 and 15 of portfolio.php, look at how the first Title is echo'd. 
+2. In the loop below, modify it so that:
+ * The title at each inex $i is echo'd before the image.
+ * Surround the `<img>` tag by a `<a></a>` tags - set the href set to the link property [at each index $i]. If you recall from code academy HTML those are the instructions for creating a clickable image-link, it shows the image and when the image is clicked it takes you to the link and not the image..
+
 * **Figure out php include other php files**
  * goooogle
-* Refactor portfolio.php to use the $links array from links.php - without copying and pasting the data from links.php into portfolio.php
- * see step 2
-* Once you have access to $links in portfolio.php, modify the loop so that:
- * Not only does the image HTML with src generate at each iteration of the for loop, in an `<img>` tag
- * The title is interpolated into `<h1>` tags
- * Surround the `<img>` tag by an `<a>` tag - set the href set to the link property. If you recall from code academy HTML those are the instructions for creating a clickable image-link.
-* Commit changes often along the way, and when you are done, push your branch with new commits (completing the assignment) to the remote repository to share.
+ * Refactor portfolio.php to use the $links array from links.php - without copying and pasting the data from links.php into portfolio.php
+ * Test it in your browser, it should be the same format of generated html, but with real images and titles and links.
+* Commit changes often along the way (specifically at any point that it is 'working'), and when you are done, push your branch with new commits (completing the assignment) to the remote repository to share. `git push origin yourname`
